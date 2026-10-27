@@ -20,7 +20,7 @@ if archivo is not None:
     st.image(imagen, caption="Radiografía cargada")
 
     imagen = imagen.resize((150, 150))
-    imagen = np.array(imagen, dtype=np.float32) / 255.0
+    imagen = np.array(imagen, dtype=np.float32)
     imagen = np.expand_dims(imagen, axis=0)
 
     modelo = cargar_modelo()
