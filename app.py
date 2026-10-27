@@ -184,4 +184,3 @@ st.caption(
     "Proyecto académico de clasificación de radiografías mediante CNN. "
     "Los resultados son experimentales y no constituyen un diagnóstico médico."
 )
-
